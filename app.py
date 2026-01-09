@@ -7,12 +7,12 @@ st.set_page_config(page_title="Jibun-Flow", page_icon="📱", layout="centered")
 
 # --- デザイン ---
 st.markdown("""
-    <style>
-    .stApp { background-color: #7494C4; } 
-    .stChatMessage { border-radius: 15px; padding: 10px; margin: 5px 0; }
-    .stTable { background-color: white; border-radius: 10px; }
-    </style>
-    """, unsafe_allow_stdio=True)
+<style>
+.stApp { background-color: #7494C4; } 
+.stChatMessage { border-radius: 15px; padding: 10px; margin: 5px 0; }
+.stTable { background-color: white; border-radius: 10px; }
+</style>
+""", unsafe_allow_html=True)
 
 st.title("📱 Jibun-Flow")
 st.caption("AIがあなたの24時間をデザインします")
